@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="1307.2463768115942" y="-499.55357142857139"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Mon Tab Bar-->
         <scene sceneID="mGP-eM-3Y6">
             <objects>
-                <tabBarController id="i58-2y-Tst" sceneMemberID="viewController">
+                <tabBarController id="i58-2y-Tst" customClass="MonTabBar" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="clg-X3-Wp0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -73,11 +73,11 @@
             </objects>
             <point key="canvasLocation" x="1307.2463768115942" y="154.01785714285714"/>
         </scene>
-        <!--Item 1-->
+        <!--Menu-->
         <scene sceneID="WfI-MS-pJh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mog-Wm-Oqp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="PVm-on-7yl"/>
+                    <tabBarItem key="tabBarItem" title="Menu" id="PVm-on-7yl"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a36-qU-LTd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -92,11 +92,11 @@
             </objects>
             <point key="canvasLocation" x="397.10144927536237" y="-499.55357142857139"/>
         </scene>
-        <!--Item-->
+        <!--A la carte-->
         <scene sceneID="EbJ-Bu-0CH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GdI-b3-cl8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Gr7-7r-MPJ"/>
+                    <tabBarItem key="tabBarItem" title="A la carte" id="Gr7-7r-MPJ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WTI-1a-pvb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
